@@ -10,7 +10,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 64px;
 }
 
@@ -26,12 +26,9 @@ section {
 }
 
 .img-responsive {
-  max-width: 200px 300px;
-}
-
-.img-responsive #diamonhead {
   max-width: 100%;
 }
+
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
@@ -172,5 +169,14 @@ footer a {
 
   header h3 {
     font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
