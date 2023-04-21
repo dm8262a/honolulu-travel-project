@@ -32,6 +32,11 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-2-columns img {
+  min-height: 100%;
+  object-fit: cover;
+}
+
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
